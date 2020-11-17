@@ -7,6 +7,8 @@ module.exports = {
     },
     assert: {
       preset: 'lighthouse:recommended',
+      'categories:performance': ['warn', { aggregationMethod: 'optimistic', minScore: 0.7 }],
+      'categories:accessibility': ['warn', { aggregationMethod: 'optimistic', minScore: 0.7 }],
       assertions: {
         'offscreen-images': 'off',
         'uses-webp-images': 'off',
