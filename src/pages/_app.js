@@ -19,6 +19,7 @@ class Srr extends App {
       <React.StrictMode>
         <Head>
           <title>React Next Boilerplate</title>
+          <meta name="description" content="React app." />
         </Head>
 
         <Provider store={reduxStore}>
